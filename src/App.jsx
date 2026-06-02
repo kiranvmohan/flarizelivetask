@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Route, Router, Routes, useNavigate } from 'react-router-dom'
 import Taskboard from './Taskboard'
+import './App.css'
 
 
 
@@ -44,6 +45,7 @@ function App() {
   return (
     <>
       <Routes>
+      
 
         <Route path='/' element={<div style={{ height: '12rem', border: 'solid', maxWidth: '30rem', marginLeft: '35rem', marginTop: '10rem', textAlign: 'center' }}>
 
