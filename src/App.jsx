@@ -47,7 +47,7 @@ function App() {
       <Routes>
       
 
-        <Route path='/' element={<div style={{ height: '12rem', border: 'solid', maxWidth: '30rem', marginLeft: '35rem', marginTop: '10rem', textAlign: 'center' }}>
+        <Route path='/' element={<div style={{ height: '12rem', border: 'solid', maxWidth: '30rem', marginLeft:'30rem', marginTop: '10rem', textAlign: 'center' }}>
 
 
           <h1 >
